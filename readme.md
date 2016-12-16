@@ -1,9 +1,4 @@
 #Ứng dụng chat support sử dụng framework laravel và socket.io
-
-
-----------
-
-
 Đây là đồ án chuyên ngành của mình, mình viết nó vì mình chả biết phải làm đề tài gì cho đồ án chuyên ngành nên chọn đại đề tài này, để vừa làm đồ án chuyên ngành và vừa học được nodejs và laravel, vì thời điểm mình bắt đầu viết những dòng code đầu tiên cho app này thì mình chưa biết về nodejs và laravel cả, ngoài việc mình biết về php thuần và javascript thuần
 
 nếu bạn nào thích thì có thể fork hoặc clone nó về
