@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <link rel="icon" href="public/logo-fe.ico">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name=viewport content="width=device-width, initial-scale=1"/>
+	<title>Live chat by FoxEye</title>
+	<link rel="stylesheet" href="public/css/scroll.css">
+	<link rel="stylesheet" href="public/css/client.css">
+</head>
+<body>
+<div class="chat">
+  <div class="chat-title">
+    <h1>FoxEye</h1>
+    <h2>Web developer/Web designer</h2>
+    <figure class="avatar">
+      <img src="public/assets/images/profile-80_4.jpg" /></figure>
+  </div>
+	<div class="login">
+		<input class="message-input lg" type="email" id="email" placeholder="email...">
+		<input class="message-input lg" type="name" id="name" placeholder="name...">
+		<button class="message-submit cls" type="button" id="login">login</button>
+	</div>
+  <div class="messages">
+    <div class="messages-content"></div>
+  </div>
+  <div class="message-box">
+  	<form action="">
+	    <input type="text" id="m" class="message-input" placeholder="Nhập nội dung..." autocomplete="off"/>
+	    <button class="message-submit">Gửi</button>
+	</form>
+  </div>
+
+</div>
+<!-- Latest compiled and minified JS -->
+<script src="public/js/jquery.js"></script>
+<script src="public/js/scroll.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="public/js/client.js"></script>
+</body>
+</html>

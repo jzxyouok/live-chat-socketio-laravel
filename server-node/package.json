@@ -1,0 +1,29 @@
+{
+  "name": "chat-support",
+  "version": "1.0.0",
+  "description": "Live chat support user or guest",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.10.2",
+    "socket.io": "1.2.0",
+    "striptags" : "*",
+    "html":"*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhoangg/chat-support.git"
+  },
+  "keywords": [
+    "nodejs",
+    "jquery"
+  ],
+  "author": "FoxEye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhoangg/chat-support/issues"
+  },
+  "homepage": "https://github.com/hhoangg/chat-support#readme"
+}
