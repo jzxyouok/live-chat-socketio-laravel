@@ -1,27 +1,40 @@
-# Laravel PHP Framework
+#Ứng dụng chat support sử dụng framework laravel và socket.io
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+----------
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-## Official Documentation
+Đây là đồ án chuyên ngành của mình, mình viết nó vì mình chả biết phải làm đề tài gì cho đồ án chuyên ngành nên chọn đại đề tài này, để vừa làm đồ án chuyên ngành và vừa học được nodejs và laravel, vì thời điểm mình bắt đầu viết những dòng code đầu tiên cho app này thì mình chưa biết về nodejs và laravel cả, ngoài việc mình biết về php thuần và javascript thuần
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+nếu bạn nào thích thì có thể fork hoặc clone nó về
+Mở file .evn để cấu hình lại database theo máy bạn (ở đây mình dùng mysql)
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+----------
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+**Mở cmd chạy lệnh**
+```bash
+php artisan migrate
+php artisan db:seed
+```
+Trong thư mục trên có thư mục **server-node** <- nó là thư mục mình viết để chạy server nodejs, bạn cd đến thư mục đó và chạy lệnh
+```bash
+npm update
+node index.js
+```
+hoặc
+```bash
+npm test
+```
+1 số hình ảnh
+![enter image description here](http://i.imgur.com/4VO62gE.png)
+-- Phía người hổ trợ
 
-## License
+![enter image description here](http://i.imgur.com/VYOlxco.png)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+-- phía khách hàng cần hổ trợ
+
+
+----------
+contact me : [facebook](https://www.facebook.com/fox.eye.94)
